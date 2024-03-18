@@ -6,10 +6,10 @@
 }
 
 .skills-container {
-    background-color: rgb(23, 23, 23);
-    width: 80%;
+    background-color: rgb(40, 40, 40);
+    width: 90%;
     border-radius: 5rem;
-    padding: 2rem;
+    padding: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +18,11 @@
 }
 
 .skills-title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 600;
     text-align: center;
     color: white;
+    margin-bottom: 1.5rem;
 }
 
 .skills-content {
@@ -36,7 +37,7 @@
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top:4rem;
 }
 
 .skills-circles-container {

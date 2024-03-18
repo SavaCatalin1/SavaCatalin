@@ -4,6 +4,7 @@
     height: 15vh;
     justify-content: space-between;
     position: fixed;
+    z-index: 3;
 }
 
 .navbar-logo{

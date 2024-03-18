@@ -23,7 +23,7 @@ const Skills = () => {
 
 
     return (
-        <div className='skills-container'>
+        <div className='skills-container' id='skills'>
             <div className='skills-title'>Skills</div>
             <div className='skills-content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </div>

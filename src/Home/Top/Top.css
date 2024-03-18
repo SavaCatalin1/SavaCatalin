@@ -1,5 +1,6 @@
 .home-container {
     margin-bottom: 15rem;
+    padding-top: 20rem;
 }
 
 .main-img {
@@ -15,7 +16,7 @@
 .top-header-1 {
     color: white;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 1rem;
     border: 2px solid white;
     width: fit-content;
@@ -24,11 +25,11 @@
 .top-header-2 {
     color: white;
     font-weight: 600;
-    font-size: 7rem;
+    font-size: 10rem;
 }
 
 .top-content {
     color: rgba(215, 215, 215, 0.625);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 40%;
 }

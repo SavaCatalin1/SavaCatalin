@@ -3,7 +3,7 @@ import './Top.css'
 
 const Top = () => {
     return (
-        <div className='home-container'>
+        <div className='home-container' id='home'>
             <div className='top-container'>
                 {/* <img src={main} className='main-img' /> */}
                 <div className='top-header-1'>
