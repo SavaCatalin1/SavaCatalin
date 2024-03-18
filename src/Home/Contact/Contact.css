@@ -88,6 +88,11 @@
     font-size: 1.4rem;
     align-self: flex-start;
     margin-top: 1rem;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: rgb(227, 227, 227);
 }
 
 .newsletter-container {
@@ -140,4 +145,8 @@
     margin-left: .1rem;
     background: rgb(246, 4, 224);
     background: linear-gradient(90deg, rgba(246, 4, 224, 1) 0%, rgba(103, 38, 138, 1) 40%, rgba(116, 32, 172, 1) 100%);
+}
+
+.newsletter-button:hover {
+    background: linear-gradient(90deg, rgb(255, 0, 234) 0%, rgb(136, 30, 193) 40%, rgb(149, 9, 242) 100%);
 }

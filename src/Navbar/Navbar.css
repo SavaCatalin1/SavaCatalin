@@ -10,12 +10,14 @@
 
 .navbar-logo{
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 10%;
+    width: 20rem;
 }
 
 .logo{
-    width: 10rem;
+   width: 10rem;
+   height: 5rem;
 }
 
 .navbar-items {
