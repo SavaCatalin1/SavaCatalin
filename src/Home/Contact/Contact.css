@@ -1,0 +1,143 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: rgb(246, 4, 224);
+    background: linear-gradient(90deg, rgba(246, 4, 224, 1) 0%, rgba(103, 38, 138, 1) 40%, rgba(116, 32, 172, 1) 100%);
+    padding-bottom: 10rem;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-right {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.contact-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.contact-flex-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-flex-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    width: 35rem;
+    height: 4rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.305);
+    margin-bottom: .3rem;
+}
+
+.contact-input::placeholder {
+    color: white;
+}
+
+.contact-message {
+    width: 71rem;
+    padding: 1.5rem;
+    padding-bottom: 20rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.305);
+    margin-bottom: .3rem;
+}
+
+.contact-message::placeholder {
+    color: white;
+}
+
+.contact-button {
+    background-color: white;
+    color: black;
+    width: 12rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.newsletter-container {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 20rem;
+    bottom: -35%;
+    left: 5%;
+    /* Adjust to position the floating div between the two content divs */
+    transform: translateY(-50%);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem;
+}
+
+.newsletter-text {
+    font-size: 3rem;
+    text-wrap: wrap;
+    width: 23rem;
+    font-weight: 600;
+    align-self: left;
+}
+
+.newsletter-flex-input {
+    display: flex;
+}
+
+.newsletter-input {
+    width: 40rem;
+    height: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(209, 50, 140);
+}
+
+.newsletter-button {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: .1rem;
+    background: rgb(246, 4, 224);
+    background: linear-gradient(90deg, rgba(246, 4, 224, 1) 0%, rgba(103, 38, 138, 1) 40%, rgba(116, 32, 172, 1) 100%);
+}

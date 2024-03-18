@@ -1,0 +1,30 @@
+.footer-container {
+    background-color: black;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 10rem;
+}
+
+.footer-items {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer-social-top {
+    display: flex;
+}
+
+.footer-social-top-item:hover {
+    cursor: pointer;
+    color: rgb(223, 194, 194);
+}
