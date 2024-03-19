@@ -4,7 +4,7 @@ import './Projects.css'
 const Projects = () => {
     const [hoveredProject, setHoveredProject] = useState(null);
 
-    const projects = [{ id: 1, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }, { id: 2, title: "Project 2", image: "https://assets.asana.biz/transform/d2ffb5c8-a7c2-4e39-8447-f8e2501c5bdc/article-project-planning-project-design-2x?io=transform:fill,width:1440&format=webp" }, { id: 3, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }, { id: 4, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }]
+    const projects = [{ id: 1, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }, { id: 2, title: "Project 2", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }, { id: 3, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }, { id: 4, title: "Project 1", image: "https://pmstudycircle.com/wp-content/uploads/2021/06/project.jpg.webp" }]
 
     return (
         <div className='projects-container' id='projects'>

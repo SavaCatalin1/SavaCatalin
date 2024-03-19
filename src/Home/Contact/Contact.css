@@ -7,7 +7,7 @@
     padding-bottom: 10rem;
 }
 
-.contact-left {
+.contactimg{
     width: 50%;
 }
 
@@ -22,9 +22,10 @@
 
 .contact-title {
     color: white;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-weight: 700;
     align-self: flex-start;
 }
 
@@ -89,6 +90,7 @@
     align-self: flex-start;
     margin-top: 1rem;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 .contact-button:hover {
@@ -112,10 +114,10 @@
 }
 
 .newsletter-text {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-wrap: wrap;
-    width: 23rem;
-    font-weight: 600;
+    width: 30rem;
+    font-weight: 700;
     align-self: left;
 }
 
@@ -136,7 +138,7 @@
     height: 5rem;
     border-radius: 1rem;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: center;

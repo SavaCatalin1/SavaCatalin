@@ -1,17 +1,42 @@
 .home-container {
     margin-bottom: 15rem;
-    padding-top: 20rem;
+    display: flex;
 }
 
-.main-img {
-    width: 26rem;
+.avatar {
+    position: absolute;
+    width: 60rem;
+    right: 5%;
+    animation: appear 3s ease-in-out forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .top-container {
-    padding-top: 40rem;
+    margin-top: 35rem;
     margin-left: 10rem;
-    margin-top: -30rem;
+    animation: slideIn 3s ease-in-out forwards;
+
 }
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 .top-header-1 {
     color: white;

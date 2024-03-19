@@ -37,8 +37,8 @@ const Skills = () => {
                                     strokeLinecap: 'round',
                                     pathTransitionDuration: 0.5,
                                     // Colors
-                                    pathColor: `rgba(0, 0, 0)`,
-                                    trailColor: '#ffffff',
+                                    pathColor: `rgba(116,32,172,1)`,
+                                    trailColor: `rgba(0,0,0,.2)`,
                                     backgroundColor: '#3e98c7',
                                 })} />
                             <div className='skill-name'>{skill.name}</div>

@@ -1,13 +1,12 @@
 import React from 'react'
 import './Contact.css'
+import contactimg from './contactimg.png'
 
 const Contact = () => {
     return (
         <>
             <div className='contact-container' id='contact'>
-                <div className='contact-left'>
-
-                </div>
+                <img src={contactimg} className='contactimg' alt='contactimg' />
 
                 <div className='contact-right'>
                     <div className='contact-title'>Get in touch</div>
@@ -25,7 +24,7 @@ const Contact = () => {
                     <div className='contact-button'>Send</div>
                 </div>
                 <div className='newsletter-container'>
-                    <div className='newsletter-text'>Subscribe to our Newsletter & Never miss latest updates</div>
+                    <div className='newsletter-text'>Subscribe to my Newsletter</div>
                     <div className='newsletter-flex-input'>
                         <input className='newsletter-input'></input>
                         <div className='newsletter-button'>Submit</div>

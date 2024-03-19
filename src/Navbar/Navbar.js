@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className='navbar-logo'>
-        <img src={logo} className='logo' />
+        <img src={logo} className='logo' alt='logo'/>
       </div>
       <div className='navbar-items'>
         <div className='navbar-item' onClick={() => scrollToSection('home')}>Home</div>
