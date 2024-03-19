@@ -14,14 +14,14 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className='navbar-logo'>
-        <img src={logo} className='logo' alt='logo'/>
+        <img src={logo} className='logo' alt='logo' />
       </div>
       <div className='navbar-items'>
         <div className='navbar-item' onClick={() => scrollToSection('home')}>Home</div>
         <div className='navbar-item' onClick={() => scrollToSection('skills')}>Skills</div>
         <div className='navbar-item' onClick={() => scrollToSection('projects')}>Projects</div>
         <div className='navbar-social-top'>
-          <div className='navbar-social-top-item'> <LinkedInIcon fontSize='large' /> </div>
+          <div className='navbar-social-top-item'> <LinkedInIcon fontSize='large' onClick={() => window.location = 'https://www.linkedin.com/in/catalin-sava-04595b262/'} /> </div>
           <div className='navbar-social-top-item'> <FacebookIcon fontSize='large' /> </div>
           <div className='navbar-social-top-item'> <InstagramIcon fontSize='large' /> </div>
         </div>

@@ -102,7 +102,7 @@
     background-color: white;
     width: 90%;
     height: 20rem;
-    bottom: -35%;
+    bottom: -25%;
     left: 5%;
     /* Adjust to position the floating div between the two content divs */
     transform: translateY(-50%);
